@@ -1,0 +1,34 @@
+﻿Field=#~Integer~#~50|Field=Footprint~String~Footprint~125|Field=Comment~String~Comment~125|Field=LibRef~String~LibRef~125|Field=Description~String~Description~125|Field=Designator~String~Designator~125|Field=Quantity~Integer~Quantity~125|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~TC364_MainBoard_V2.0.PrjPcb|ReportField=ProjectFullPath~C:\Users\YangYue\Desktop\寒假工作\主板\1.2\TC364_MainBoard_V1.3\TC364_MainBoard_V2.0.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [TC364_MainBoard_PCB_V2.0.PcbDoc]|ReportField=TotalQuantity~79|ReportField=ReportTime~19:30:32|ReportField=ReportDate~2022/2/16|ReportField=ReportDateTime~2022/2/16 19:30:32|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~TC364_MainBoard_PCB_V2.0.PcbDoc|ReportField=DataSourceFullPath~C:\Users\YangYue\Desktop\寒假工作\主板\1.2\TC364_MainBoard_V1.3\TC364_MainBoard_PCB_V2.0.PcbDoc|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|7*7 L|33uH|L-CDRH|功率屏蔽电感|L21|1
+2|0805C|0.1uF|CAP|Capacitor|C02, C03, C12, C14, C22, C24, C32, C34, C42, C44, C52, C54, C72, C74|14
+3|0805R|0|RES||R26, R42, R52|3
+4|0805R|100K|RES||R02|1
+5|0805R|1K|RES|[NoValue], 贴片电阻|R03, R21|2
+6|0805R|2.7K|RES|贴片电阻|R22|1
+7|0805R|200K|RES||R01|1
+8|0805R|22K|RES|贴片电阻|R24|1
+9|0805R|3.9K|RES|贴片电阻|R23|1
+10|0805R|4.7K|RES||R11, R25, R31, R41, R51, R71|6
+11|0805_LED_S1|LED|LED|发光二极管|D_3V3, D_5V, D_5V5, D_CAM, D_MCU, D_UART|6
+12|BUZ|BUZ|BELL|Bell|U6|1
+13|CAP 2.5*6.3*11.2 - BK|330uF/16V|Cap Pol1|Polarized Capacitor (Radial)|C21, C23|2
+14|CAP 3.5*8*11.5 - GD|680uF/16V|Cap Pol1|Polarized Capacitor (Radial)|C01|1
+15|CASE-A_3216|10uF/16V|Cap Pol1|Polarized Capacitor (Radial)|C11, C13, C31, C33, C41, C43, C51, C53, C71, C73|10
+16|CSW DIP-4P|SW-4P|SW-4P|4路编码开关|S7|1
+17|HDR2.54-LI-2x3P|Header3X2|Header 3X2|3*2P接插件|JP_Code1, JP_Code2|2
+18|HDR2.54-LI-3P|HDR-1X3|Header 3|3P接插件|JP_Steer|1
+19|IDC10-JLC|HEADER 5X2|HEADER 5X2||JP_W2UART|1
+20|IDC16-JLC - duplicate|HEADER 8X2|HEADER 8X2||JP_Camera|1
+21|KEY2-6X3|SW-PB|SW-PB|按键|S1, S2, S3, S4, S5, S6|6
+22|KEY_7V2|SS-12F23|SSW-1P|1路波动开关|KEY_7V2|1
+23|KF301-2P|KCF301|KCF301|||1
+24|PNP8550-SO|PNP8550|PNP|PNP Transistor|Q1|1
+25|SIP3N|HDR-1X3|Header 3|3P接插件|JP_GP2Y|1
+26|SIP6N|HDR-1X6|HEADER 6||JP_Motor|1
+27|SIP8|HDR-1X7|HEADER 8|8 Pin Header|JP_20602, JP_IPS|2
+28|SMA|SS54|SS34|肖特基二极管|D21|1
+29|SOP-8_150mil|AS1015|AS1015|可调升压芯片|U2|1
+30|SOT-23-5|RT9013-3.3|RT9013-3.3||U3, U4, U5|3
+31|TC364V1.2|LQ-TC264-SYSVC|LQ-TC264-SYSVC||LQ-TC264-SYSVC|1
+32|TO-220(TO-220-3)|SPX2940-5.0V|LM2940|5V稳压芯片|U1, U7|2
+33|T_Type_Adapter|T_Type_Adapter|T_Type_Adapter||P_7V2|1

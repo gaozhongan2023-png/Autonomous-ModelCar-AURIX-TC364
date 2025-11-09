@@ -1,0 +1,34 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~TC364_MainBoard_V1.0.PrjPcb|ReportField=ProjectFullPath~C:\Users\Kanesh's laptop\Desktop\TC364_MainBoard_V1.0（REV-2021.D1）\TC364_MainBoard_V1.0.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [(Poly)TC364_MainBoard_PCB.PcbDoc]|ReportField=TotalQuantity~67|ReportField=ReportTime~16:49:37|ReportField=ReportDate~2021/12/9|ReportField=ReportDateTime~2021/12/9 16:49:37|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~(Poly)TC364_MainBoard_PCB.PcbDoc|ReportField=DataSourceFullPath~C:\Users\Kanesh's laptop\Desktop\TC364_MainBoard_V1.0（REV-2021.D1）\(Poly)TC364_MainBoard_PCB.PcbDoc|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|680uF/16V|Polarized Capacitor (Radial)|C01|CAP 3.5*8*11.5 - GD|Cap Pol1|1
+2|0.1uF|Capacitor|C02, C03, C12, C14, C22, C24, C32, C34, C42, C44|0805_C|CAP|10
+3|10uF/16V|Polarized Capacitor (Radial)|C11, C13, C31, C33, C41, C43|CASE-A_3216|Cap Pol1|6
+4|330uF/16V|Polarized Capacitor (Radial)|C21, C23|CAP 2.5*6.3*11.2 - BK|Cap Pol1|2
+5|SS54|肖特基二极管|D21|SMA|SS34|1
+6|Comment||Designator455, Designator456, Designator457, Designator458|HOLE-3.5||4
+7|LED|发光二极管|D_3V3, D_5V, D_5V5, D_CAM|0805_LED_S1|LED|4
+8|HDR-1X7|8 Pin Header|JP_20602, JP_IPS|SIP8|HEADER 8|2
+9|HEADER 8X2||JP_Camera|IDC16-JLC - duplicate|HEADER 8X2|1
+10|Header3X2|3*2P接插件|JP_Code1, JP_Code2|HDR2.54-LI-2x3P|Header 3X2|2
+11|HDR-1X3|3P接插件|JP_GP2Y, JP_Steer|HDR2.54-LI-3P|Header 3|2
+12|HDR-1X6||JP_Motor|SIP6N|HEADER 6|1
+13|HEADER 5X2||JP_W2UART|IDC10-JLC|HEADER 5X2|1
+14|SS-12F23|1路波动开关|KEY_7V2|KEY_7V2|SSW-1P|1
+15|33uH|功率屏蔽电感|L21|7*7 L|L-CDRH|1
+16|T_Type_Adapter||P_7V2|T_Type_Adapter|T_Type_Adapter|1
+17|PNP8550|PNP Transistor|Q1|PNP8550-SO|PNP|1
+18|200K||R01|0805_R|RES|1
+19|100K||R02|0805_R|RES|1
+20|1K||R03|0805_R|RES|1
+21|4.7K||R11, R25, R31, R41|0805_R|RES|4
+22|1K|贴片电阻|R21|0603_R|RES|1
+23|2.7K|贴片电阻|R22|0603_R|RES|1
+24|3.9K|贴片电阻|R23|0603_R|RES|1
+25|22K|贴片电阻|R24|0603_R|RES|1
+26|0||R26, R42|0805_R|RES|2
+27|SW-PB|按键|S1, S2, S3, S4, S5, S6|KEY2-6X3|SW-PB|6
+28|SW-4P|4路编码开关|S7|CSW DIP-4P|SW-4P|1
+29|SPX2940-5.0V|5V稳压芯片|U1|TO-220(TO-220-3)|LM2940|1
+30|AS1015|可调升压芯片|U2|SOP-8_150mil|AS1015|1
+31|RT9013-3.3||U3, U4|SOT-23-5|RT9013-3.3|2
+32|TC364_CoreBoard|逐飞科技TC264核心板|U5|TC364_CoreBoard|TC264_CoreBoard|1
+33|BEEP|Bell|U6|BUZ|BELL|1

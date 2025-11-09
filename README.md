@@ -60,6 +60,8 @@ The same algorithm can also be simulated on a PC using OpenCV for debugging and 
 | `PC_OpenCV/OpenCVProjectTemplate.vcxproj.filters` | Visual Studio filters file |
 | `PC_OpenCV/OpenCVProjectTemplate.vcxproj.user` | Visual Studio user settings file |
 | `PC_OpenCV/README.md` | PC simulation documentation |
+| **PCB/** | PCB design files for the model car |
+| `PCB/<project_files>` | Altium Designer PCB project files (schematics, board layout, etc.) |
 | **README.md** | Main project overview |
 | **LICENSE** | MIT License file |
 | **.gitignore** | Git ignore configuration |
