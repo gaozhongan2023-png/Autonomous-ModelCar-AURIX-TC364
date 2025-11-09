@@ -6,6 +6,17 @@ It replicates the exact same lane detection and center fitting logic as used in 
 
 ---
 
+## Dependencies
+
+This project uses OpenCV 4.5.4 for image processing.
+
+To reduce repository size, the required OpenCV runtime libraries are provided as a compressed file:
+
+**opencv_world454.rar
+
+---
+
+
 ## File Structure
 
 | File | Description |
@@ -43,9 +54,10 @@ image/
 
 ## How to Run
 
-1. Build and run `main.cpp` (no additional dependencies are required).  
-2. The program automatically loads the images from the `/image/` folder.  
-3. Each frame will go through:
+1. **Extract `opencv_world454.rar`** in the current folder (`PC_OpenCV/`).  
+2. run `main.cpp` (no additional dependencies are required).  
+3. The program automatically loads the images from the `/image/` folder.  
+4. Each frame will go through:
    - Preprocessing (grayscale conversion, filtering, binarization)
    - Lane edge scanning
    - Center line fitting
