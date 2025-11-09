@@ -1,0 +1,20 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.pdb
+*.obj
+*.exe
+*.log
+*.idb
+*.ipch
+*.opensdf
+*.iobj
+
+# Build directories
+x64/Debug/
+x64/Release/
+
+# OpenCV runtime (optional, if not using compressed .rar)
+*.dll
+*.lib

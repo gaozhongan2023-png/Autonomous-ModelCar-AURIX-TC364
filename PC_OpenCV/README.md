@@ -19,13 +19,18 @@ To reduce repository size, the required OpenCV runtime libraries are provided as
 
 ## File Structure
 
-| File | Description |
-|------|--------------|
-| main.cpp | Entry point. Starts image sequence simulation and processing. |
-| imageDeal.cpp | Core image processing module that integrates preprocessing and lane detection logic. |
-| imagePreDeal.cpp | Implements preprocessing functions (noise filtering, ROI selection, thresholding, etc.). Uses a slightly different implementation from the MCU version but produces identical results. |
-| Track.cpp | Portable tracking algorithm module, exactly the same code as used in the MCU for lane fitting and deviation calculation. Can be directly copied between platforms. |
-| ui.cpp | Custom visualization interface to display key intermediate variables, thresholds, and fitting results. |
+| File / Directory | Description |
+|-----------------|-------------|
+| **imageDeal/main.cpp**        | Entry point, starts image sequence simulation and processing |
+| **imageDeal/imageDeal.cpp**   | Core image processing module integrating preprocessing and lane detection |
+| **imageDeal/imagePreDeal.cpp**| Preprocessing functions (noise filtering, ROI selection, thresholding). Slightly different from MCU but produces equivalent results |
+| **imageDeal/Track.cpp**       | Portable tracking algorithm, identical to MCU code for lane fitting and deviation calculation |
+| **imageDeal/ui.cpp**          | Custom visualization interface for debugging and displaying intermediate variables |
+| **image/**                    | Input image sequence for testing (0.bmp, 1.bmp, ...) |
+| **opencv_world454.rar**       | Compressed OpenCV 4.5.4 runtime library. Extract in current folder before running |
+| **x64/Debug/**                | Debug build output files |
+| **OpenCVProjectTemplate.sln / .vcxproj** | Visual Studio project and solution files |
+| **README.md**                 | Documentation for PC simulation |
 
 ---
 
@@ -55,9 +60,10 @@ image/
 ## How to Run
 
 1. **Extract `opencv_world454.rar`** in the current folder (`PC_OpenCV/`).  
-2. run `main.cpp` (no additional dependencies are required).  
-3. The program automatically loads the images from the `/image/` folder.  
-4. Each frame will go through:
+2. run `OpenCVProjectTemplate.sln` (no additional dependencies are required).  
+3. Run the project using the local Windows debugger (Start Debugging / F5) — no additional dependencies are required.
+4. The program automatically loads the images from the `/image/` folder.  
+5. Each frame will go through:
    - Preprocessing (grayscale conversion, filtering, binarization)
    - Lane edge scanning
    - Center line fitting
